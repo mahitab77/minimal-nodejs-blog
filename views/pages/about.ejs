@@ -1,0 +1,42 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include the head partial which contains meta tags, Bootstrap, and custom CSS -->
+  <%- include('../partials/head.ejs') %> 
+</head>
+<body>
+  <!-- Include the navbar partial for the navigation menu -->
+  <%- include('../partials/navbar.ejs') %>
+
+  <!-- Page Header Section -->
+  <!-- This section includes a large header with a background image and the "About Me" title -->
+  <header class="masthead" style="background-image: url('/assets/img/about-bg.jpg')">
+    <div class="container position-relative px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">This is what I do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Section -->
+  <!-- This section provides detailed information about the blog or the author -->
+  <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5 justify-content-center">
+      <div class="col-md-10 col-lg-8 col-xl-7">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta. Sed nec diam eu diam mattis viverra. Nulla fringilla, orci ac euismod semper, magna diam porttitor mauris, quis sollicitudin sapien justo in libero. Vestibulum mollis mauris enim. Morbi euismod magna ac lorem rutrum elementum. Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim. Morbi a enim in magna semper bibendum. Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus. Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean facilisis nulla vitae urna tincidunt congue sed ut dui. Morbi malesuada nulla nec purus convallis, ac posuere velit aliquet.</p>
+        <p>Curabitur nec lacus elit. Pellentesque convallis nisi ac augue pharetra eu tristique neque consequat. Ut quis posuere quam. Nulla facilisi. Phasellus at dapibus nibh. Praesent et odio ac arcu facilisis ultrices nec nec lorem. Etiam eget lacinia erat. Sed mollis felis quis nunc dignissim, ac venenatis lacus iaculis. Ut ultrices, ante at pretium suscipit, metus dui bibendum est, eget rhoncus nibh metus nec massa. Maecenas sed ultricies felis. Sed imperdiet venenatis feugiat. Pellentesque scelerisque dui ut sem semper, vitae placerat enim tempor. Integer rutrum magna et scelerisque consequat. Aenean magna ipsum, porttitor vitae placerat eu, interdum sit amet nisi.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Include the footer partial for the footer section -->
+  <%- include('../partials/footer.ejs') %> 
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!-- views/layout.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include the head partial which contains meta tags, Bootstrap, and custom CSS -->
+  <%- include('./partials/head.ejs') %>
+</head>
+<body>
+  <!-- Include the navbar partial for the transparent navigation menu -->
+  <%- include('./partials/navbar.ejs') %>
+
+  <!-- Main Content Wrapper -->
+  <!-- This is where the page-specific content will be injected -->
+  <div class="container mt-5">
+    <%- body %> <!-- Render the body content dynamically -->
+  </div>
+
+  <!-- Include the footer partial for the footer section -->
+  <%- include('./partials/footer.ejs') %>
+</body>
+</html>
